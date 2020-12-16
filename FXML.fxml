@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="430.0" style="-fx-background-image: Color_switch.jpg;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.FXMLController">
+   <children>
+      <VBox alignment="CENTER" layoutY="-2.0" prefHeight="630.0" prefWidth="430.0" spacing="5.0">
+         <children>
+            <Button fx:id="resumeBt" mnemonicParsing="false" onAction="#startGame" onMouseEntered="#hover" onMouseExited="#hoverExit" prefHeight="60.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Resume" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Corbel Italic" size="44.0" />
+               </font>
+            </Button>
+            <Button fx:id="restartBt" mnemonicParsing="false" onMouseEntered="#hover" onMouseExited="#hoverExit" prefHeight="60.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Restart" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Corbel Italic" size="44.0" />
+               </font>
+            </Button>
+            <Button fx:id="saveBt" mnemonicParsing="false" onMouseClicked="#saveGame" onMouseEntered="#hover" onMouseExited="#hoverExit" prefHeight="60.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Save" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Corbel Italic" size="44.0" />
+               </font>
+            </Button>
+            <Button fx:id="exitBt" mnemonicParsing="false" onMouseEntered="#hover" onMouseExited="#hoverExit" prefHeight="60.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Exit" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Corbel Italic" size="44.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</Pane>

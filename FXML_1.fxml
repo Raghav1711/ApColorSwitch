@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="325.0" prefWidth="400.0" style="-fx-border-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.FXML_1Controller">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" prefHeight="194.0" prefWidth="400.0" text="GAME OVER" textFill="#f8cb00" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Ebrima Bold" size="59.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" layoutX="5.0" layoutY="195.0" prefHeight="126.0" prefWidth="390.0" spacing="15.0">
+         <children>
+            <Button id="resumeBt" fx:id="resumeBt" mnemonicParsing="false" onAction="#action" onMouseEntered="#resumeEntered" onMouseExited="#mouseExited" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="RESUME" textAlignment="CENTER" textFill="#fffafa">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Button>
+            <Button id="exitBt" fx:id="exitBt" mnemonicParsing="false" onAction="#exit" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="EXIT" textFill="#fffafa">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</Pane>
